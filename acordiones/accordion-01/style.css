@@ -22,7 +22,7 @@ details[open] .icon-plus {
   display: none;
 }
 
-details:not([open]) .icon-minus {
+details:not([open]) .icon-menus {
   display: none;
 }
 summary {

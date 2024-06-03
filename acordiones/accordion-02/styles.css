@@ -1,0 +1,30 @@
+.main-item--open {
+  border-radius: 8px 8px 0px 0px;
+  background-color: #6238e2;
+  transition: all 200ms;
+  color: white;
+}
+.main-item--open:hover {
+  color: white;
+  border-radius: 8px 8px 0px 0px;
+  background-color: #6238e2;
+}
+.main-item--open svg {
+  color: white;
+}
+
+.main-item--open:hover svg {
+  color: white;
+}
+.main-item--open + ul {
+  visibility: visible;
+  max-height: 400px;
+  opacity: 1;
+  border-radius: 0px 0px 8px 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-item--open > .expand-icon {
+  transform: rotate(90deg);
+}
